@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SMPID | Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/353131f6ae.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/1bd5f94f10.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <meta name="description" content="The conference website on SMPID by Civil Department of Engineering">
+    <meta property="og:image" content="{% static 'og_image.png' %}">
+
+    <link rel="icon" href="./image/gcek_logo.ico" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <nav class="navbar nav-1 navbar-expand-lg navbar-light">
+        <a class="logo-clg" href="#"><img src="./image/logo-gcek-final.png" alt=""></a>
+
+        <a class="logo-smpid ml-auto" href="#"><img src="./image/smpid_logo_full.png" alt=""></a>
+        <a class="logo-clg ml-auto" href="#"><img src="./image/logo-gcoej_final.jpg" alt=""></a>
+
+    </nav>
+
+    <nav class="navbar nav-2 navbar-expand-lg navbar-dark bg-light sticky-top">
+        <!-- <a class="navbar-brand logo" href="#"><img src="" alt=""></a> -->
+        <div class="navbar-brand">
+            <h4>SMPID-2020</h4>
+        </div>
+        <button type="button" class="btn btn-default mx-2" id="popcart" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="links">
+        
+        
+          Session Links
+        </button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./committee.html">Committee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./submission.html">Submission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./theme.html">Theme</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./keyDates.html">KeyDates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./schedule.html">schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://docs.google.com/forms/d/1OdhK5eke7Q_tFCZocXqPqsC9pBaS2mDSEax5viSR_2Q/edit">Registration</a>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="home">
+
+        <div class="brodcast">
+            <marquee class="brodcastContent" direction="left">
+                <h6><strong>Inaugural Ceremony:</strong> Date:17.09.2020 | Time:10:00 AM . Live on youtube, <a href="https://youtu.be/_SsA8XEaY-Y" target="_blank">click here</a> to redirect</h6>
+            </marquee>
+        </div>
+        <div class="main">
+            <div class="col-sm-6 info">
+                <h2>ONLINE NATIONAL CONFERENCE</h2><br> <strong> on</strong>
+                <h2>sustainable materials and practices for infrastructure development (SMPID)</h2>
+                <p>17th & 18th September, 2020.</p>
+                <h3>Organised By:<strong> Department of Civil Engineering, Government College of Engineering, Kalahandi,
+                        Bhawanipatna, Odisha, India </strong>in collaboration with Government College of Engineering,
+                    Jalgaon, Maharashtra, India</h3>
+                <h3>Sponsored By: <strong>TEQIP-III</strong></h3>
+                <button type="button" class="btn btn-primary">
+                    <a href="./SMPID-2020.pdf">
+                        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp; &nbsp; Download<br>brochure
+                    </a>
+                </button>
+            </div>
+            <div class="col-sm-6 carousel-gcek">
+                <div class="border">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="./image/background1.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./image//background2.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./image/background3.png" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid smpid loader">
+        <h2 style="color: white; text-shadow: 3px 3px 5px #555; font-family: 'Russo One', sans-serif;">SMPID-2020</h2>
+    </div>
+    <section class="speakers invited-speakers">
+        <div class="speaker-heading">
+            <h1>Invited Speakers</h1>
+        </div>
+        <div class="container">
+            <div class="carousel" data-flickity='{ "wrapAround":true,"autoPlay": true }'>
+                <div class="carousel-cell">
+                    <div class="card" id="card" style="width: 20rem;">
+                        <img src="./image/s.barai.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4>Keynote Speaker</h4>
+                            <h5>Prof. Sudhirkumar Barai, PhD</h5>
+                            <p class="card-text">Director- BITS Pilani, Pilani Campus, Senior Professor - Department of
+                                Civil Engineering, BITS, Pilani</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="card" id="card" style="width: 20rem;">
+                        <img src="./image/cbk.rao.png" class="card-img-top" alt="... ">
+                        <div class="card-body ">
+                            <h4>Keynote Speaker</h4>
+                            <h5>Dr. C.B.K. RAO</h5>
+                            <p class="card-text ">Professor, Department of Civil Engineering, National Institute of
+                                Technology, Warangal - 506004, Telangana,</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <img src="./image/sk.das.png " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h4>Keynote Speaker</h4>
+                            <h5>Dr. S.K. Das,</h5>
+                            <p class="card-text ">Professor & Head, Department of Civil Engineering, Indian Institute of
+                                Technology (ISM) Dhanbad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <img src="./image/rp.nanda.png " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h4>Keynote Speaker</h4>
+                            <h5>Dr. R. P. Nanda,</h5>
+                            <p class="card-text ">Associate Professor, Civil Engineering Department, National Institute
+                                of Technology, Durgapur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <img src="./image/bb.das.png " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h4>Keynote Speaker</h4>
+                            <h5>Dr. B.B. Das,</h5>
+                            <p class="card-text ">Associate Professor, Civil Engineering Department, National Institute
+                                of Technology Karnataka, Surathkal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="speakers organising-committee ">
+        <div class="speaker-heading ">
+            <h1>Organising Committee</h1>
+        </div>
+        <div class="container">
+            <div class="carousel" data-flickity='{ "wrapAround":true,"autoPlay": true }'>
+                <div class="carousel-cell">
+                    <div class="card" id="card" style="width: 20rem; ">
+                        <div class="card-body ">
+                            <h4>Chief Patron</h4>
+                            <h5>Prof. C. R. Tripathy</h5>
+                            <p class="card-text ">Vice Chancellor, BPUT Odisha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <div class="card-body ">
+                            <h4>Patron</h4>
+                            <h5>Prof. Dulu Patnaik</h5>
+                            <p class="card-text ">Principal, GCEK, Bhawanipatna</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <div class="card-body ">
+                            <h4>Patron</h4>
+                            <h5>Dr. R. D. Kokate</h5>
+                            <p class="card-text ">Principal, GCoE, Jalgaon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <div class="card-body ">
+                            <h4>Chairman</h4>
+                            <h5>Prof. K. C. Panda</h5>
+                            <p class="card-text ">Professor & Head , CE Dept., GCEK, Bhawanipatna</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <div class="card-body ">
+                            <h4>Convenor</h4>
+                            <h5>Prof. G. C. Behera</h5>
+                            <p class="card-text ">Asso. Prof., CE Dept., GCEK Bhawanipatna</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <div class="card-body ">
+                            <h4>Convenor</h4>
+                            <h5>Prof. P. K. Muduli</h5>
+                            <p class="card-text ">Asso. Prof., CE Dept., GCEK Bhawanipatna</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <div class="card-body ">
+                            <h4>Co-Convenor</h4>
+                            <h5>Prof. J. K. Naik</h5>
+                            <p class="card-text ">Asst. Prof., CE Dept., GCEK Bhawanipatna</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <div class="card-body ">
+                            <h4>Co-Convenor</h4>
+                            <h5>Prof. S. Panda</h5>
+                            <p class="card-text ">Asst. Prof., CE Dept., GCEK Bhawanipatna</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <div class="card-body ">
+                            <h4>Co-Convenor</h4>
+                            <h5>Prof. K. P. Sethy</h5>
+                            <p class="card-text ">Asst. Prof., CE Dept., GCEK Bhawanipatna</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-cell ">
+                    <div class="card " id="card " style="width: 20rem; ">
+                        <div class="card-body ">
+                            <h4>Co-Convenor</h4>
+                            <h5>Prof. S. K. Sahu</h5>
+                            <p class="card-text ">Asst. Prof., CE Dept., GCEK Bhawanipatna</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="sponsor ">
+        <div class="container ">
+            <div class="sponsor-heading ">
+                <h1>Sponsored By</h1>
+            </div>
+            <img src="./image/teqip-logo3.png " alt=" ">
+        </div>
+    </section>
+
+
+    <section class="venue ">
+        <div class="container ">
+            <h1>Reach Us</h1>
+            <div class="map ">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3670.844324555143!2d83.10659185775205!3d19.91491625957759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a24ef3382020aa3%3A0x6720328dfbfd451a!2sGovernment%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1598786096334!5m2!1sen!2sin "
+                    width="600 " height="400 " frameborder="0 " style="border:0; " allowfullscreen=" "
+                    aria-hidden="false " tabindex="0 "></iframe>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container connect ">
+            <div class="row text-center padding ">
+                <div class="col-12 social padding ">
+                    <a href="https://m.facebook.com/gce.kalahandi?refid=52&__tn__=C-R "><i
+                            class="fab fa-facebook "></i></a>
+                    <a href="https://mobile.twitter.com/GKalahandi?s=09 "><i class="fab fa-twitter "></i></a>
+                    <a href="https://www.instagram.com/gcekalahandi/ "><i class="fab fa-instagram "></i></a>
+                    <a href="https://m.youtube.com/channel/UCgmGyekOZ0_HHWBzKOCpx-w "><i
+                            class="fab fa-youtube "></i></a>
+                </div>
+            </div>
+
+            <div class="container-fluid padding ">
+                <div class="row text-center ">
+                    <div class="col-md-4 ">
+                        <div class="footer-tag container ">
+                            <img src="./image/gcek_logo.png " alt="logo of gcek ">
+                            <hr>
+                        </div>
+                        <p>smpid2020@gmail.com</p>
+                        <p>Government College Of Engineering <br> Kalahandi, Bhawanipatna, <br>Odisha, 766002</p>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="footer-tag container ">
+                            <h5>Organisation</h5>
+                            <hr>
+                        </div>
+                        <p>Department of Civil Engineering,<br>
+                            Government College of Engineering, Kalahandi, Odisha <br>
+                            In collaboration with<br>
+                            Government College of Engineering, Jalgaon, Maharashtra</p>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="footer-tag container ">
+                            <h5>Contacts</h5>
+                            <hr>
+                        </div>
+                        <p>Prof. G. C. Behera - 9515082735</p>
+                        <p>Prof. P. K. Muduli - 9437811142</p>
+
+                    </div>
+                    <div class="col-12 ">
+                        <hr class="last ">
+                        <h5>&copy;<span id="year "></span> |
+                            <a href="https://www.gcekbpatna.ac.in/ ">GCEK</a>
+                        </h5>
+                        <script>
+                            document.getElementById("year ").innerHTML = new Date().getFullYear();
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+    crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
+    crossorigin="anonymous "></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
+    crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js "
+    integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+    crossorigin=" anonymous "></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js "></script>
+<script>
+    $('#popcart').popover();
+    let popstr=`
+    <h6 class="btn btn-secondary" ><a href="https://govtcollegeofeng.webex.com/govtcollegeofeng/j.php?MTID=m89bd1420cf25b6a8e05197d3ddbc688e" target="_blank">Inaugural Ceremony &<br> Session-1</a></h5><br>
+     <h6 class="btn btn-secondary"> <a  style="text-decoration: none;" href="https://govtcollegeofeng.webex.com/govtcollegeofeng/j.php?MTID=m2a86ae185ac0508bcac655e36eb38010" target="_blank">Session-2</a></h5><br>
+     <h6 class="btn btn-secondary"> <a  style="text-decoration: none;" href="https://govtcollegeofeng.webex.com/govtcollegeofeng/j.php?MTID=m82cf11ba77ab3ef05070f74477048bca" target="_blank">Session-3</a></h5><br>
+      <h6 class="btn btn-secondary">  <a  style="text-decoration: none;" href="https://govtcollegeofeng.webex.com/govtcollegeofeng/j.php?MTID=m57571bb8a432699738e75314a10c45e4" target="_blank">Session-4 &<br> Valeditory Session</a></h5>
+`
+document.getElementById("popcart").setAttribute('data-content', popstr);
+
+</script>
+
+</html>
+
+
